@@ -1,11 +1,11 @@
-# Hanko React-Express Starter
+# Hanko React-Hono Starter
 
-This template shows how you can integrate Hanko with your React App (Vite) and protect routes using express.js middleware.
+This template shows how you can integrate Hanko with your React App (Vite) and protect routes using Hono.js middleware.
 
 ## Clone the repo
 
 ```bash
-git clone https://github.com/teamhanko/hanko-react-express-starter.git
+git clone https://github.com/teamhanko/hanko-hono-react-starter.git
 ```
 
 ## Get the Hanko API URL
