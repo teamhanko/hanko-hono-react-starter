@@ -1,16 +1,16 @@
 import HankoStarterInfo from '../hanko starter components/HankoStarterInfo'
-import HankoStarterDashboard from '../hanko starter components/HankoStarterDashboard'
 import HankoStarterHeader from '../hanko starter components/HankoStarterHeader'
+import HankoProfile from '../components/HankoProfile'
 
-const Dashboard = () => {
+const Profile = () => {
   return (
     <div>
-      <title>Hanko starter dashboard</title>
+      <title>Hanko starter profile </title>
       <HankoStarterInfo></HankoStarterInfo>
       <HankoStarterHeader></HankoStarterHeader>
-      <HankoStarterDashboard></HankoStarterDashboard>
+      <HankoProfile></HankoProfile>
     </div>
   )
 }
 
-export default Dashboard
+export default Profile

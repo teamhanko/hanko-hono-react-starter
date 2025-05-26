@@ -1,9 +1,13 @@
-import { useNavigate } from 'react-router-dom';
+import HankoAuth from '../components/HankoAuth'
+import HankoStarterInfo from '../hanko starter components/HankoStarterInfo'
 
 const Home = () => {
-  const navigate = useNavigate();
   return (
-    <button onClick={() => navigate('/login')}>Login</button>
+    <div>
+        <title>Hanko React + Node Starter </title>
+        <HankoStarterInfo></HankoStarterInfo>
+        <HankoAuth></HankoAuth>
+    </div>
   )
 }
 
