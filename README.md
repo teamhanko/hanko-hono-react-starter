@@ -75,7 +75,7 @@ pnpm install
 4. Start the backend server:
 
 ```bash
-pnpm dev
+bun index.ts
 ```
 
 ## Usage
